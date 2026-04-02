@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Unique Medical Centre – Mothibistad</title>
+  <meta name="description" content="Privacy Policy for Unique Medical Centre – how we collect, use, and protect your personal and health information." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0A2342; --blue: #1565C0; --blue-light: #E3F2FD;
+      --green: #1B5E20; --green-mid: #2E7D32; --green-bright: #43A047; --green-light: #E8F5E9;
+      --white: #FFFFFF; --off-white: #F5F9FF; --text: #1A2340; --text-muted: #546E88;
+      --border: #D0E4F7; --radius: 14px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Nunito', sans-serif; color: var(--text); background: var(--white); line-height: 1.7; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(10,35,66,0.97); backdrop-filter: blur(10px); display: flex; align-items: center; justify-content: space-between; padding: 0 5%; height: 68px; box-shadow: 0 2px 20px rgba(0,0,0,0.18); }
+    .nav-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+    .nav-logo-icon { width: 42px; height: 42px; background: linear-gradient(135deg,#43A047,#1565C0); border-radius: 10px; display: flex; align-items: center; justify-content: center; }
+    .nav-logo-icon svg { width: 24px; height: 24px; fill: white; }
+    .nav-logo-text { display: flex; flex-direction: column; line-height: 1.2; }
+    .nav-logo-text span:first-child { font-family: 'Playfair Display', serif; color: white; font-size: 1rem; font-weight: 700; }
+    .nav-logo-text span:last-child { color: #43A047; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
+    .nav-links { display: flex; gap: 32px; list-style: none; }
+    .nav-links a { color: rgba(255,255,255,0.82); text-decoration: none; font-size: 0.9rem; font-weight: 600; transition: color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: #43A047; }
+    .nav-cta { background: linear-gradient(135deg,#43A047,#1B5E20); color: white; text-decoration: none; padding: 9px 22px; border-radius: 8px; font-size: 0.88rem; font-weight: 700; }
+    .page-hero { background: linear-gradient(135deg, var(--navy) 0%, #0D3B6E 55%, #164B2A 100%); padding: 130px 5% 80px; text-align: center; }
+    .page-hero span { display: inline-block; color: #81C784; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 14px; }
+    .page-hero h1 { font-family: 'Playfair Display', serif; color: white; font-size: clamp(2rem,4vw,2.8rem); margin-bottom: 16px; }
+    .page-hero p { color: rgba(255,255,255,0.7); font-size: 0.92rem; max-width: 480px; margin: 0 auto; }
+
+    .policy-body { padding: 80px 5%; background: var(--off-white); }
+    .policy-inner { max-width: 800px; margin: 0 auto; }
+    .policy-meta { background: white; border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 40px; display: flex; gap: 32px; flex-wrap: wrap; }
+    .policy-meta p { font-size: 0.82rem; color: var(--text-muted); }
+    .policy-meta strong { color: var(--navy); }
+    .policy-section { background: white; border: 1px solid var(--border); border-radius: var(--radius); padding: 32px 36px; margin-bottom: 20px; }
+    .policy-section h2 { font-family: 'Playfair Display', serif; color: var(--navy); font-size: 1.25rem; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+    .policy-section h2 span { display: inline-flex; width: 32px; height: 32px; background: var(--green-light); border-radius: 8px; align-items: center; justify-content: center; font-family: 'Nunito',sans-serif; font-size: 0.85rem; color: var(--green-mid); font-weight: 700; }
+    .policy-section p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px; }
+    .policy-section p:last-child { margin-bottom: 0; }
+    .policy-section ul { color: var(--text-muted); font-size: 0.9rem; padding-left: 20px; margin-bottom: 12px; }
+    .policy-section ul li { margin-bottom: 6px; }
+    .policy-section a { color: var(--blue); }
+    .contact-box { background: var(--green-light); border: 1px solid #a5d6a7; border-radius: var(--radius); padding: 24px; margin-top: 16px; }
+    .contact-box p { color: var(--green); font-size: 0.88rem; }
+    .contact-box a { color: var(--green); font-weight: 700; }
+
+    footer { background: var(--navy); padding: 56px 5% 28px; }
+    .footer-grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 48px; padding-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.1); margin-bottom: 28px; }
+    .footer-brand p { color: rgba(255,255,255,0.6); font-size: 0.88rem; line-height: 1.7; margin-top: 14px; max-width: 280px; }
+    .footer-col h4 { color: #43A047; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 16px; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+    .footer-col ul li a { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 0.88rem; }
+    .footer-col ul li a:hover { color: #81C784; }
+    .footer-col ul li span { color: rgba(255,255,255,0.65); font-size: 0.88rem; }
+    .footer-bottom { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+    .footer-bottom p { color: rgba(255,255,255,0.38); font-size: 0.78rem; }
+    .footer-bottom a { color: rgba(255,255,255,0.38); text-decoration: none; }
+    .footer-bottom a:hover { color: #81C784; }
+    @media (max-width: 900px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 640px) { .nav-links,.nav-cta { display: none; } .policy-section { padding: 24px 20px; } .footer-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<nav>
+  <a class="nav-logo" href="index.html">
+    <div class="nav-logo-icon"><svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H7v-2h5v2zm5-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg></div>
+    <div class="nav-logo-text"><span>Unique Medical Centre</span><span>Mothibistad, Northern Cape</span></div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a class="nav-cta" href="contact.html">Book Appointment</a>
+</nav>
+
+<div class="page-hero">
+  <span>Legal</span>
+  <h1>Privacy Policy</h1>
+  <p>How Unique Medical Centre collects, uses, and protects your personal and health information.</p>
+</div>
+
+<div class="policy-body">
+  <div class="policy-inner">
+    <div class="policy-meta">
+      <p><strong>Practice:</strong> Unique Medical Centre</p>
+      <p><strong>Practitioner:</strong> Dr O.K Idugboe (PR 1185918)</p>
+      <p><strong>Last Updated:</strong> 2025</p>
+      <p><strong>Governing Law:</strong> Republic of South Africa (POPIA)</p>
+    </div>
+
+    <div class="policy-section">
+      <h2><span>1</span> Introduction</h2>
+      <p>Unique Medical Centre ("we", "our", or "the practice"), operated by Dr O.K Idugboe (Practice Number PR 1185918), is committed to protecting your privacy and the confidentiality of your personal and health information. This Privacy Policy explains how we collect, use, store, and protect your information in accordance with the Protection of Personal Information Act 4 of 2013 (POPIA) and all applicable South African healthcare legislation.</p>
+      <p>By visiting our practice or using our website, you acknowledge that you have read and understood this Privacy Policy.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2><span>2</span> Information We Collect</h2>
+      <p>We may collect the following categories of personal information:</p>
+      <ul>
+        <li><strong>Identity Information:</strong> Full name, date of birth, gender, South African ID number or passport number.</li>
+        <li><strong>Contact Information:</strong> Home address, phone number, email address, and WhatsApp contact details.</li>
+        <li><strong>Health Information:</strong> Medical history, diagnoses, medications, test results, treatment plans, and other clinical information gathered during consultations.</li>
+        <li><strong>Medical Aid Information:</strong> Medical aid scheme name, membership number, and principal member details.</li>
+        <li><strong>Financial Information:</strong> Billing and payment information for consultation fees (where applicable).</li>
+        <li><strong>Next of Kin:</strong> Emergency contact information where provided.</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2><span>3</span> How We Use Your Information</h2>
+      <p>We use your personal and health information for the following purposes:</p>
+      <ul>
+        <li>To provide medical consultations, diagnosis, treatment, and follow-up care.</li>
+        <li>To compile and maintain clinical records as required by law and professional standards.</li>
+        <li>To process medical aid claims and billing.</li>
+        <li>To issue medical certificates, sick notes, referral letters, and other clinical documents.</li>
+        <li>To conduct SASSA medical assessments and complete the required documentation.</li>
+        <li>To communicate with you regarding your appointments and healthcare.</li>
+        <li>To comply with legal and regulatory obligations, including HPCSA requirements.</li>
+        <li>To refer you to specialists or hospitals when clinically indicated.</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2><span>4</span> Confidentiality of Health Information</h2>
+      <p>Your health information is strictly confidential. We will not disclose your medical information to any third party without your explicit consent, except in the following circumstances permitted or required by law:</p>
+      <ul>
+        <li>Where disclosure is required by a court order or other legal obligation.</li>
+        <li>Where disclosure is necessary to prevent serious harm to yourself or others.</li>
+        <li>Where disclosure is required for public health purposes under the National Health Act.</li>
+        <li>Where information is shared with another healthcare provider involved in your direct care (with your knowledge).</li>
+        <li>Where information is submitted to your medical aid scheme for billing and claims purposes.</li>
+      </ul>
+      <p>All staff members of Unique Medical Centre are bound by professional and contractual obligations of confidentiality.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2><span>5</span> Storage and Security</h2>
+      <p>We take reasonable technical and organisational measures to protect your personal information from unauthorised access, loss, or disclosure. Patient records are stored securely and access is restricted to authorised personnel only.</p>
+      <p>Clinical records are retained for a minimum of six (6) years as required under South African healthcare law. Records of minor patients are retained until the patient reaches adulthood, plus six years thereafter.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2><span>6</span> Your Rights (POPIA)</h2>
+      <p>Under the Protection of Personal Information Act (POPIA), you have the following rights:</p>
+      <ul>
+        <li><strong>Right to Access:</strong> You may request access to the personal information we hold about you.</li>
+        <li><strong>Right to Correction:</strong> You may request correction of inaccurate personal information.</li>
+        <li><strong>Right to Deletion:</strong> You may request deletion of your personal information, subject to legal retention requirements.</li>
+        <li><strong>Right to Object:</strong> You may object to the processing of your personal information in certain circumstances.</li>
+        <li><strong>Right to Complain:</strong> If you believe your rights have been violated, you may lodge a complaint with the Information Regulator of South Africa.</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2><span>7</span> Website and Digital Communication</h2>
+      <p>Our website does not collect personal information without your knowledge. Any information you submit via our contact channels (phone, WhatsApp, email) will be used solely to respond to your enquiry and schedule appointments.</p>
+      <p>We may use anonymous analytics tools to understand how visitors use our website. No personally identifiable information is collected through these tools.</p>
+      <p>Please be aware that communication via WhatsApp and email carries inherent security limitations. For sensitive clinical matters, we recommend discussing these in person during a consultation.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2><span>8</span> Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time to reflect changes in our practices or applicable law. The updated policy will be posted on our website. We encourage you to review this policy periodically.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2><span>9</span> Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy or wish to exercise your rights under POPIA, please contact us:</p>
+      <div class="contact-box">
+        <p><strong>Unique Medical Centre – Dr O.K Idugboe (PR 1185918)</strong><br>
+        Shop 27, Mothibistad Complex, Stand 1270, Kgosi Mothibi Road, Mothibistad 8474, Northern Cape<br>
+        📞 <a href="tel:0603343788">060 334 3788</a><br>
+        💬 WhatsApp: <a href="https://wa.me/27616745861">061 674 5861</a><br>
+        ✉ Email: <a href="mailto:drjusticebhohon@yahoo.com">drjusticebhohon@yahoo.com</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a class="nav-logo" href="index.html">
+        <div class="nav-logo-icon"><svg viewBox="0 0 24 24" style="width:24px;height:24px;fill:white;"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H7v-2h5v2zm5-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg></div>
+        <div class="nav-logo-text"><span>Unique Medical Centre</span><span>Quality &amp; Affordable Care</span></div>
+      </a>
+      <p>Providing quality and affordable primary healthcare to the Mothibistad community.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="policy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><span>📍 Shop 27, Mothibistad Complex, Kgosi Mothibi Road, Mothibistad 8474</span></li>
+        <li><a href="tel:0603343788">📞 060 334 3788</a></li>
+        <li><a href="https://wa.me/27616745861" target="_blank" rel="noopener">💬 061 674 5861 (WhatsApp)</a></li>
+        <li><a href="mailto:drjusticebhohon@yahoo.com">✉ drjusticebhohon@yahoo.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Unique Medical Centre. All rights reserved. PR 1185918</p>
+    <a href="policy.html">Privacy Policy</a>
+  </div>
+</footer>
+</body>
+</html>
